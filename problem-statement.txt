@@ -1,0 +1,4 @@
+1.maven proj 
+2.repo,service,models
+3.solid princi/design patterns
+4.HMS
