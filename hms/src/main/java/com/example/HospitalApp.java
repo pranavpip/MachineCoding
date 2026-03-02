@@ -1,7 +1,11 @@
+package com.example;
+import com.example.model.Doctor;
+import com.example.repo.DoctorRepository;
+import com.example.services.HospitalService;
 import java.util.*;
 
 public class HospitalApp {
-    public static void main(String[] args) {
+    public void run() {
         DoctorRepository repo = new DoctorRepository();
         HospitalService service = new HospitalService(repo);
         Scanner scanner = new Scanner(System.in);
