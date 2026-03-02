@@ -1,17 +1,9 @@
-import java.util.*;
-class Slot {
-    private String time;
-    private boolean isBooked;
-    public Slot(String time) {
-        this.time = time;
-        this.isBooked = false;
-    }
-    public String getTime() { return time; }
-    public boolean isBooked() { return isBooked; }
-    public void setBooked(boolean booked) { isBooked = booked; }
-}
+package com.example.model;
 
-class Doctor {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Doctor {
     private String name;
     private String specialization;
     private List<Slot> slots = new ArrayList<>();
