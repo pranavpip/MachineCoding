@@ -1,7 +1,11 @@
+package com.example.services;
+import com.example.model.Doctor;
+import com.example.model.Slot;
+import com.example.repo.DoctorRepository;
 import java.util.*;
 import java.util.stream.Collectors;
 
-class HospitalService {
+public class HospitalService {
     private final DoctorRepository doctorRepo;
     public HospitalService(DoctorRepository repo) {
         this.doctorRepo = repo;
