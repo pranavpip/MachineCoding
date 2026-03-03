@@ -1,6 +1,9 @@
+package com.example.repo;
 import java.util.*;
 
-class DoctorRepository {
+import com.example.model.Doctor;
+
+public class DoctorRepository {
     private List<Doctor> doctors = new ArrayList<>();
     public void save(Doctor doctor) {
         doctors.add(doctor);
